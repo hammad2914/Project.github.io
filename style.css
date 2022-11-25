@@ -1,0 +1,1234 @@
+html {
+    font-size: 62.5% !important;
+    font-family:'Poppins', sans-serif !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+    text-align: justify;
+}
+
+nav li {
+    padding: 5px 30px;
+    margin-right: 10px;
+    font-weight: 600;
+    font-size: 1.7rem;
+    
+}
+
+nav {
+    text-align: center;
+    background-color:whitesmoke;
+    height: 100px;
+    
+    
+}
+
+#img img{height: 500px;}
+
+#donatebtn {
+    background: linear-gradient(to right, #29bf12 50%,#00296b  50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+    color: aliceblue;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.6rem;
+    padding: 5px 20px;
+    border: 1px transparent;
+    border-radius: 25px;
+    height: 50px;
+    letter-spacing: 1px;
+    margin-right: 10px;
+}
+
+#donatebtn:hover {
+    background-position: left bottom;
+}
+
+
+#banner {
+    background-image: linear-gradient(to right, #00296b, #00509d);
+    color: whitesmoke;
+    height: 380px;
+    padding: 30px 50px;
+    margin-top: 100px;
+}
+
+#banner img {
+    float: left;
+    height: 90%;
+    
+}
+
+.title {
+    float: right;
+    margin-right: 0px;
+    margin-top: 40px;
+    display: inline;
+    height: 300px;
+}
+
+.title h1 {
+    color: #fdc500;
+    font-size: 5.6rem;
+    font-weight: 900;
+    letter-spacing: .4rem;
+    margin-left: 60px;
+}
+
+.title h2 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    letter-spacing: .4rem;
+    line-height: 2rem;
+    text-align: right;
+    margin-left: 60px;
+}
+
+.title p {
+    text-align: right;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.title p span {
+    color: #fdc500;
+}
+
+.top{
+    font-size: 2.5rem;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    background-color: #055097;
+    border: transparent;
+    border-radius: 50%;
+    text-align: center;
+    bottom: 30px;
+    right: 50px;
+    color: whitesmoke;
+
+    text-decoration: none;
+    line-height: 50px;
+}
+.top:hover{
+    color: #fdc500;
+}
+#appeal1 {
+    margin-top: 60px;
+    background-color: whitesmoke;
+    width: 90%;
+    padding: 5%;
+}
+
+#appeal1 h1 {
+    font-size: 7rem;
+    font-weight: 700;
+}
+
+#appeal1 h2 {
+    font-size: 6.5rem;
+    font-weight: 200;
+    line-height: 50px;
+}
+
+#appeal1 p {
+    font-size: 2.2rem;
+    font-weight: 400;
+    color: gray;
+}
+
+#heading {
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    color: #00509d;
+    margin-top: 60px;
+}
+
+#appeals {
+    display: flex;
+    margin: 2%;
+}
+
+#sub,
+#sub1 {
+    padding: 30px 10px;
+    width: 50%;
+    margin: 1%;
+    background-color: whitesmoke;
+    display: flex;
+    height: auto;
+
+}
+
+.subimg img,
+.sub1img img{
+    padding-right: 20px;
+    width:280px; height:310px;
+}
+
+.subtext h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.subtext h1:hover {
+    color: rgb(11, 199, 11);
+}
+
+.subtext h2 {
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.subtext p {
+    font-size: 1.6rem;
+    color: gray;
+    font-weight: 600;
+}
+
+#btn {
+    width: 100px;
+    height: 50px;
+    font-size: 1.6rem;
+    font-weight: 500;
+    border: transparent;
+    border-radius: 5px;
+    background-color: #00296b;
+    color: whitesmoke;
+}
+
+#btn:hover {
+    background-color: #00509d;
+}
+
+#msg {
+    background-color: #00296b;
+    
+
+    margin-top: 60px;
+    
+}
+
+#pmsg {
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: whitesmoke;
+    text-align: justify;
+    padding: 25px;
+    padding-top: 30px;
+    line-height: 4rem;
+    background-color: #00296b;
+}
+
+#pimg {
+    
+    padding: 25px;
+    font-size: 3rem;
+    color: whitesmoke;
+    font-weight: 500;
+    text-align: center;
+}
+#pimg img{
+    width: 100%;
+    padding: 10px;
+}
+
+.donate {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-around;
+}
+
+.donateways {
+    background-color: #00509d;
+    color: whitesmoke;
+    width: 30%;
+    text-align: center;
+    padding: 2%;
+    border: transparent;
+    border-radius: 10px;
+}
+
+.donateways p {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.donateways h1{
+    font-weight: 700;
+}
+.donateways button{
+    width: 100px;
+    color: whitesmoke;
+    background-color: rgb(11, 199, 11);
+    border: transparent;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.donateways button:hover{
+    background-color: rgb(11, 163, 11);
+}
+
+.location{
+    background-color: #00509d;
+    text-align: center;
+    margin-top: 60px;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5%;
+}
+.location h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: whitesmoke;
+}
+iframe{width: 50%;
+    height: 400px;
+    padding-top: 5%;                    
+}
+.footer{
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    margin-top: 60px;
+}
+.foot1{
+    width: 50%;
+    font-size: 1.4rem;
+    font-weight: 500;
+    padding: 20px;
+}
+.foot1 p{
+    color: grey;
+}
+
+.foot2{
+    width: 50%;
+    padding-top: 20px;
+    padding-right: 50px;
+    text-align: end;
+}
+.foot2 h1{
+    font-size: 5rem;
+    font-weight: 900;
+    
+}
+.foot2 h3{
+    font-size: 3rem;
+    font-weight: 700;
+    margin-left: 40px;    
+    line-height: 10px;
+}
+
+.foot2 a{
+    text-align: center;
+    text-decoration: none;
+    color: whitesmoke;
+    margin-left: 60px;
+    font-size: 3.5rem;
+    margin-top: 60px;
+}
+
+#twitter:hover{
+    color: rgb(65, 151, 221);
+}
+#inta:hover{
+    color: rgb(247, 10, 148);
+}
+#youtube:hover{
+    color: red;
+}
+
+.intro{
+    text-align: justify;
+    font-size: 2rem;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    
+}
+.intro h1{
+    font-size: 4rem;
+    font-weight: 700;
+    border-left: 5px solid #00296b;
+    padding: 10px;
+    color:rgb(59, 56, 56);
+}
+.intro p{
+    color: rgb(95, 87, 87);
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.aim{
+    text-align: justify;
+    font-size: 3rem;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    
+}
+.aim h1{
+    font-size: 4rem;
+    font-weight: 700;
+    border-left: 5px solid #00296b;
+    padding: 10px;
+    color:rgb(59, 56, 56);
+}
+.aim p{
+    color: rgb(95, 87, 87);
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: 600;
+    text-align: center !important;
+}
+.aim span{
+    color: #00296b;
+}
+
+.mission{
+    text-align: justify;
+    font-size: 2rem;
+    margin-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    
+}
+.mission h1{
+    font-size: 4rem;
+    font-weight: 700;
+    border-left: 5px solid #00296b;
+    padding: 10px;
+    color:rgb(59, 56, 56);
+}
+.mission p{
+    color: rgb(95, 87, 87);
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: 400;
+    
+}
+.mission span{
+    color: #00296b;
+}
+
+.visit{
+    font-size: 4rem;
+    color: #fdc500;
+    background-image: linear-gradient(to right, #00296b, #00509d);
+    width: 100%;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 60px;
+    padding: 15px;
+    margin-bottom: 60px;
+}
+
+#donation{
+    background-color: rgb(230, 224, 224);
+    border: transparent;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey ;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    padding: 50px;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    font-size: 3rem;
+    font-weight: 500;
+    
+}
+#donation h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: rgb(58, 52, 52);
+}
+#donation h2{
+    font-size: 3.8rem;
+    font-weight: 700;
+}
+#donation span{
+    color: #055097;
+}
+#donation button{
+    
+    padding: 15px;
+    color: whitesmoke;
+    font-size: 2rem;
+    font-weight: 500;
+    background-color: #055097;
+    border: transparent;
+    border-radius: 15px;
+    margin-top: 50px;
+}
+
+#donation button:hover{
+    background-color: #22c51d;
+}
+#adres{
+    font-size: 2rem;
+    text-align:center;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:641px) and (max-width:992px){
+    html{
+        font-size: 55%;
+    }
+
+    nav{
+        height: auto;
+    }
+    #banner {
+        width: 100%;
+        height: 260px;
+        box-sizing: border-box;
+        padding: 10px;
+        margin-top: 38px;
+    }
+    #banner img {
+        float: left;
+        
+        padding: 10px;
+        padding-top: 45px;
+
+    }
+    .title {
+        display: inline;
+        margin: 0%;
+        float: right;
+        height: auto;
+        padding-top: 40px;
+    }
+    
+    .title h1 {
+        color: #fdc500;
+        font-size: 3.7rem;
+        font-weight: 900;
+        letter-spacing: .4rem;
+        margin-left: 10px;
+        margin-right: 25px;
+        text-align: right;
+     }
+    
+    .title h2 {
+        font-size: 2rem;
+        letter-spacing: .4rem;
+        line-height: 1rem;
+        margin-left: 10%;
+        margin-right: 25px;
+        text-align: right;
+    }
+    
+    .title p {
+        font-size: 1.5rem;
+        margin-right: 25px;
+        text-align: right;
+        line-height: 20px;
+
+    }
+
+    #img img{height: 350px;}
+
+    #appeal1{
+        width: 95%;
+    }
+    #appeal1 img{
+        width: 100%;
+        margin-top: 0px !important;
+        padding: 10px;
+    }
+    
+    #appeal1 h1 {
+        font-size: 5.5rem;
+        font-weight: 700;
+    }
+    
+    #appeal1 h2 {
+        font-size: 4.5rem;
+        font-weight: 200;
+        line-height: 50px;
+    }
+    
+    #appeal1 p {
+        font-size: 2.2rem;
+        font-weight: 400;
+        color: gray;
+    }
+    #donatebtn{
+        font-size: 1.8rem;
+    }
+
+    #appeals {
+        display: block;
+        margin-top: 60px;
+    }
+    
+    #sub,
+    #sub1 {
+        padding: 10px;
+        width: 95%;
+        margin: 2%;
+        background-color: whitesmoke;
+        display: block !important;
+        height: auto;
+    
+    }
+    
+    .subimg img,
+    .sub1img img{
+        padding: 20px !important;
+        width: 100%;
+        height: auto;
+    }
+    
+    .subtext h1 {
+        font-size: 4rem;
+        font-weight: 700;
+        padding: 0px 20px;
+    }
+    .subtext h2 {
+        font-size: 3rem;
+        font-weight: 500;
+        padding: 0px 20px;
+    }
+    
+    .subtext p {
+        font-size: 2rem;
+        color: gray;
+        font-weight: 600;
+        padding: 20px;
+    }
+    #subtext{
+        margin-top: 10px !important;
+    }
+    #btn {
+        margin-left: 10px;
+        font-size: 1.5em;
+        
+        margin-left: 20px;
+    }
+    #msg {
+        
+        display: block;
+        width: 100%;
+        
+    }
+    
+    #pmsg {
+        font-size: 1.8rem;
+        padding: 25px;
+    }
+    
+    #pimg {
+        width: 100%;
+        font-size: 3rem;
+        color: whitesmoke;
+        font-weight: 500;
+        text-align: center;
+    }
+    .pimg img{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .donate {
+        display: block;
+        margin-top: 60px;
+        
+    }
+    
+    .donateways {
+        background-color: #00509d;
+        color: whitesmoke;
+        width: 90%;
+        text-align: center;
+        padding: 4%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        border: transparent;
+        border-radius: 10px;
+    }
+    
+    .donateways p {
+        font-size: 1.8rem;
+        margin-top: 20px;
+        font-weight: 600;
+    }
+    .donateways h1{
+        font-weight: 700;
+        font-size: 2.3rem;
+    }
+
+    .location{
+        background-color: #00509d;
+        text-align: center;
+        margin-top: 60px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5%;
+    }
+    .location h1{
+        font-size: 3rem;
+        font-weight: 700;
+        color: whitesmoke;
+    }
+    iframe{width: 90%;
+        height: 300px;
+        padding-top: 5%;
+    }
+
+
+    .footer{
+        background-color: black;
+        color: whitesmoke;
+        display: flex;
+        margin-top: 60px;
+    }
+    .foot1{
+        width: 50%;
+        font-size: 1.4rem;
+        font-weight: 500;
+        padding: 20px;
+        text-align: justify;
+    }
+    .foot1 h1{
+        font-size: 2rem;
+    }
+    .foot2{
+        width: 50%;
+        padding: 20px;
+        padding-right: 20px;
+        text-align:right;
+    }
+    .foot2 h1{
+        font-size: 3.1rem;
+        font-weight: 900;
+        float: right;
+    }
+    .foot2 h3{
+        font-size: 1.8rem;
+        font-weight: 700;
+        float: right;
+    }
+    .foot2 a{
+        text-align: center;
+        text-decoration: none;
+        color: whitesmoke;
+        margin-left: 20px;
+        font-size: 2.5rem;
+        margin-top: 60px;
+    }
+ 
+    .intro{
+        text-align: justify;
+        font-size: 1.5rem;
+        margin-top: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        
+    }
+    .intro h1{
+        font-size: 2.5rem;
+        font-weight: 700;
+        border-left: 5px solid #00296b;
+        padding: 10px;
+        color:rgb(59, 56, 56);
+    }
+    .intro p{
+        color: rgb(95, 87, 87);
+        padding: 10px;
+        margin-top: 20px;
+        font-weight: 400;
+    }
+    
+    .aim{
+        text-align: justify;
+        font-size: 2rem;
+        margin-top: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        
+    }
+    .aim h1{
+        font-size: 2.5rem;
+        font-weight: 700;
+        border-left: 5px solid #00296b;
+        padding: 10px;
+        color:rgb(59, 56, 56);
+    }
+    .aim p{
+        color: rgb(95, 87, 87);
+        padding: 10px;
+        margin-top: 20px;
+        font-weight: 600;
+        text-align: center !important;
+    }
+    .aim span{
+        color: #00296b;
+    }
+    
+    .mission{
+        text-align: justify;
+        font-size: 1.5rem;
+        margin-top: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        
+    }
+    .mission h1{
+        font-size: 2.5rem;
+        font-weight: 700;
+        border-left: 5px solid #00296b;
+        padding: 10px;
+        color:rgb(59, 56, 56);
+    }
+    .mission p{
+        color: rgb(95, 87, 87);
+        padding: 10px;
+        margin-top: 20px;
+        font-weight: 400;
+        
+    }
+    .visit{
+        font-size: 2.5rem;
+        
+    }
+    #donation h1{
+        font-size: 3.5rem;
+
+    }
+    #donation button{
+        font-size: 1.5rem;
+    }
+    #donation{
+        font-size: 2.3rem;
+    }
+    #donation h2{
+        font-size: 3.2rem;
+    }
+    #adres{
+        font-size: 1.6rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:640px){
+    html{
+        font-size: 42%;
+    }
+    nav{
+        height: auto;
+    }
+    #banner {
+        width: 100%;
+        height: 160px;
+        box-sizing: border-box;
+        padding: 10px;
+        margin-top: 40px;
+        
+    }
+    #banner img {
+        float: left;
+        
+        padding: 10px;
+        padding-top: 35px;
+
+    }
+    .title {
+        display: inline;
+        margin: 0%;
+        float: right;
+        height: auto;
+        padding-top: 35px;
+    }
+    
+    .title h1 {
+        color: #fdc500;
+        font-size: 2rem;
+        font-weight: 900;
+        letter-spacing: .4rem;
+        margin-left: 10px;
+        text-align: right;
+    }
+    
+    .title h2 {
+        font-size: 1.2rem;
+        letter-spacing: .4rem;
+        line-height: 1rem;
+        margin-left: 10%;
+        text-align: right;
+    }
+    
+    .title p {
+        font-size: 1rem;
+        margin-left: 0%;
+        line-height: 0%;
+    }
+
+    #img img{height: 250px;}
+    #appeal1{
+        width: 95%;
+    }
+    #appeal1 img{
+        width: 100%;
+        margin-top: 0px !important;
+        padding: 10px;
+    }
+    
+    #appeal1 h1 {
+        font-size: 4.4rem;
+        font-weight: 700;
+    }
+    
+    #appeal1 h2 {
+        font-size: 3.5rem;
+        font-weight: 400;
+        line-height: 50px;
+    }
+    
+    #appeal1 p {
+        font-size: 2rem;
+        font-weight: 400;
+        color: gray;
+    }
+    #donatebtn{
+        font-size: 1.8rem;
+    }
+
+    #appeals {
+        display: block;
+        margin-top: 60px;
+    }
+    
+    #sub,
+    #sub1 {
+        padding: 10px;
+        width: 95%;
+        margin: 2%;
+        background-color: whitesmoke;
+        display: block !important;
+        height: auto;
+    
+    }
+    
+    .subimg img,
+    .sub1img img{
+        padding: 20px !important;
+        width: 100%;
+        height: auto;
+    }
+    
+    .subtext h1 {
+        font-size: 4rem;
+        font-weight: 700;
+        padding: 0px 20px;
+    }
+    .subtext h2 {
+        font-size: 3rem;
+        font-weight: 500;
+        padding: 0px 20px;
+    }
+    
+    .subtext p {
+        font-size: 2rem;
+        color: gray;
+        font-weight: 600;
+        padding: 20px;
+    }
+    #subtext{
+        margin-top: 10px !important;
+    }
+    #btn {
+        margin-left: 10px;
+        font-size: 1.5em;
+        
+        margin-left: 20px;
+    }
+    #msg {
+        
+        display: block;
+        width: 100%;
+        
+    }
+    
+    #pmsg {
+        font-size: 1.8rem;
+        padding: 25px;
+    }
+    
+    #pimg {
+        width: 100%;
+        font-size: 3rem;
+        color: whitesmoke;
+        font-weight: 500;
+        text-align: center;
+    }
+    .pimg img{
+        width: 100%;
+        padding: 10px;
+    }
+
+    .donate {
+        display: block;
+        margin-top: 60px;
+        
+    }
+    
+    .donateways {
+        background-color: #00509d;
+        color: whitesmoke;
+        width: 90%;
+        text-align: center;
+        padding: 4%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        border: transparent;
+        border-radius: 10px;
+    }
+    
+    .donateways p {
+        font-size: 1.8rem;
+        margin-top: 20px;
+        font-weight: 600;
+    }
+    .donateways h1{
+        font-weight: 700;
+        font-size: 2.3rem;
+    }
+
+    .location{
+        background-color: #00509d;
+        text-align: center;
+        margin-top: 60px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5%;
+    }
+    .location h1{
+        font-size: 3rem;
+        font-weight: 700;
+        color: whitesmoke;
+    }
+    iframe{width: 90%;
+        height: 300px;
+        padding-top: 5%;
+    }
+
+
+    .footer{
+        background-color: black;
+        color: whitesmoke;
+        display: flex;
+        margin-top: 60px;
+    }
+    .foot1{
+        width: 45%;
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding: 20px;
+        text-align: justify;
+    }
+    .foot1 h1{
+        font-size: 2rem;
+    }
+    .foot2{
+        width: 55%;
+        padding: 20px;
+        padding-right: 20px;
+    }
+    .foot2 h1{
+        font-size: 2rem;
+        font-weight: 900;
+        float: right;
+    }
+    .foot2 h3{
+        font-size: 1rem;
+        font-weight: 700;
+        float: right;
+        line-height:normal !important;
+    }
+    .foot2 a{
+        text-align: center;
+        text-decoration: none;
+        color: whitesmoke;
+        margin-left: 10px;
+        font-size: 1.5rem;
+        margin-top: 60px;
+    }
+    
+    .intro{
+        text-align: justify;
+        font-size: 1.5rem;
+        margin-top: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        
+    }
+    .intro h1{
+        font-size: 2.5rem;
+        font-weight: 700;
+        border-left: 5px solid #00296b;
+        padding: 10px;
+        color:rgb(59, 56, 56);
+    }
+    .intro p{
+        color: rgb(95, 87, 87);
+        padding: 10px;
+        margin-top: 20px;
+        font-weight: 400;
+    }
+    
+    .aim{
+        text-align: justify;
+        font-size: 2rem;
+        margin-top: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        
+    }
+    .aim h1{
+        font-size: 2.5rem;
+        font-weight: 700;
+        border-left: 5px solid #00296b;
+        padding: 10px;
+        color:rgb(59, 56, 56);
+    }
+    .aim p{
+        color: rgb(95, 87, 87);
+        padding: 10px;
+        margin-top: 20px;
+        font-weight: 600;
+        text-align: center !important;
+    }
+    .aim span{
+        color: #00296b;
+    }
+    
+    .mission{
+        text-align: justify;
+        font-size: 1.5rem;
+        margin-top: 70px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        
+    }
+    .mission h1{
+        font-size: 2.5rem;
+        font-weight: 700;
+        border-left: 5px solid #00296b;
+        padding: 10px;
+        color:rgb(59, 56, 56);
+    }
+    .mission p{
+        color: rgb(95, 87, 87);
+        padding: 10px;
+        margin-top: 20px;
+        font-weight: 400;
+        
+    }
+    .visit{
+        font-size: 2rem;
+        color: #fdc500;
+        background-image: linear-gradient(to right, #00296b, #00509d);
+        width: 100%;
+
+    }
+    #donation h1{
+        font-size: 2.5rem;
+
+    }
+    #donation button{
+        font-size: 1rem;
+    }
+    #donation{
+        font-size: 2rem;
+    }
+    #donation h2{
+        font-size: 2.2rem;
+    }
+    #adres{
+        font-size: 1.3rem;
+        font-weight: 500;
+    }
+}
